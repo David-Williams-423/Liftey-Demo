@@ -23,89 +23,9 @@ struct AddWorkoutView: View {
     @State var reps: String = ""
     @State var weight: String = ""
     
-    var addExerciseEnabled: Bool {
-        workoutTitle != "" && sets != "" && reps != "" && weight != ""
-    }
-    
-    var addWorkoutEnabled: Bool {
-        title != "" && !exercises.isEmpty
-    }
-    
     var body: some View {
-        NavigationView {
-            VStack {
-                
-                List {
-                    
-                    TextField("Enter title", text: $title)
-                    TextField("Notes", text: $notes)
-                    
-                    Section {
-                        
-                        TextField("Workout", text: $workoutTitle)
-                            
-                        TextField("Sets", text: $sets)
-                            .keyboardType(.decimalPad)
-                        TextField("Reps", text: $reps)
-                            .keyboardType(.decimalPad)
-                        TextField("Weight", text: $weight)
-                            .keyboardType(.decimalPad)
-                        
-                    }
-                    
-                    Section {
-                        Button(action: {
-                            
-                            exercises.append(Exercise(description: workoutTitle, reps: Int(reps) ?? 0, sets: Int(sets) ?? 0, weight: Int(weight) ?? 0))
-                        
-                            workoutTitle = ""
-                            sets = ""
-                            reps = ""
-                            weight = ""
-                                
-                            
-                        }, label: {
-                            Text("Add Exercise")
-                        })
-                        .disabled(!addExerciseEnabled)
-                    }
-                    
-                    Section {
-                        ForEach(exercises, id: \.self) { exercise in
-                            ExerciseInfo(exercise: exercise)
-                        }
-                        
-                    }
-                    
-                    
-                    
-                }
-                .listStyle(.insetGrouped)
-                
-                .navigationBarTitle(Text("Add Workout"), displayMode: .inline)
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Button {
-                            showSheet = false
-                        } label: {
-                            Text("Cancel").bold()
-                        }
-                    }
-                    
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button(action: {
-                            
-                            vm.workouts.append(Workout(title: title, notes: notes, exercises: exercises))
-                            
-                            showSheet = false
-                        }, label: {
-                            Text("Add").bold()
-                        })
-                        .disabled(!addWorkoutEnabled)
-                        
-                    }
-                }
-            }
+        VStack {
+            
         }
     }
 }
@@ -116,14 +36,8 @@ struct ExerciseInfo: View {
     
     var body: some View {
         
-        VStack(alignment: .leading) {
-            Text(exercise.description)
-            Text("Sets: " + String(exercise.sets))
-                .padding(.leading)
-            Text("Reps: " + String(exercise.reps))
-                .padding(.leading)
-            Text("Weight: " + String(exercise.weight) + "lbs")
-                .padding(.leading)
+        VStack() {
+            
         }
        
     }

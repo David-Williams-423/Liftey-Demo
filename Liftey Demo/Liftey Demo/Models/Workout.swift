@@ -20,8 +20,8 @@ struct Workout: Identifiable {
 
 extension Workout {
     
-    var example: Workout {
-        Workout(title: "Chest/tri", notes: "", exercises: [Exercise(description: "Chest press", reps: 4, sets: 4, weight: 80), Exercise(description: "Chest press", reps: 4, sets: 4, weight: 80), Exercise(description: "Chest press", reps: 4, sets: 4, weight: 80)])
+    static var example: [Workout] {
+        [Workout(title: "Chest/tri", notes: "", exercises: [Exercise(description: "Chest press", reps: 4, sets: 4, weight: 80), Exercise(description: "Chest press", reps: 4, sets: 4, weight: 80), Exercise(description: "Chest press", reps: 4, sets: 4, weight: 80)])]
     }
     
 }

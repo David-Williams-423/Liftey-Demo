@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    var examples = Workout.example
+    
     @StateObject var vm = WorkoutViewModel()
     
     @State var showSheet = false
@@ -16,7 +18,8 @@ struct ContentView: View {
     var body: some View {
      
         NavigationStack {
-            List(vm.workouts, id: \.id) { workout in
+            //TODO: change examples to use the view model instead
+            List(examples, id: \.id) { workout in
                 
                 NavigationLink {
                     DescriptionView(workout: workout)
@@ -29,18 +32,8 @@ struct ContentView: View {
                 AddWorkoutView(vm: vm, showSheet: $showSheet, exercises: [])
             }
             
-            
             .navigationTitle("Workouts")
-            .toolbar {
-                ToolbarItem {
-                    Button(action: {
-                        showSheet.toggle()
-                    }, label: {
-                        Image(systemName: "plus")
-                            .font(.largeTitle)
-                    })
-                }
-            }
+            
         }
     }
 }

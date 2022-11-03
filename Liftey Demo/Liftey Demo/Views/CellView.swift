@@ -9,44 +9,11 @@ import SwiftUI
 
 struct CellView: View {
     var workout: Workout
-    @State var completed = false
-    var body: some View {
-        VStack {
-            HStack {
-                
-                Button(action: {
-                    completed.toggle()
-                }, label: {
-                    Image(systemName: completed ? "checkmark.circle.fill" : "circle")
-                        .font(.title)
-                })
-                .buttonStyle(PlainButtonStyle())
-                .foregroundColor(.accentColor)
-                
-                
-                Text(workout.title)
-                    .fontWeight(.bold)
-                    .font(.title)
-                
-                Spacer()
 
-            }
-            
-                ForEach(workout.exercises) { exercise in
-                    HStack {
-                        Text(exercise.description)
-                            .bold()
-                        Text(String(exercise.sets) + "x" + String(exercise.reps))
-                        
-                        Spacer()
-                    }
-                    .padding(.horizontal,65)
-                    
-                }
+    var body: some View {
+        VStack{
             
         }
-        .padding()
-        .foregroundColor(completed ? .secondary : .primary)
     }
 }
 
