@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3865A7AD291447BA00A0E99B /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3865A7AC291447BA00A0E99B /* WorkoutViewModel.swift */; };
+		389740F629072AD500E6CD6D /* Liftey_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389740F529072AD500E6CD6D /* Liftey_DemoApp.swift */; };
+		389740F829072AD500E6CD6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389740F729072AD500E6CD6D /* ContentView.swift */; };
+		389740FA29072AD600E6CD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389740F929072AD600E6CD6D /* Assets.xcassets */; };
+		389740FD29072AD600E6CD6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389740FC29072AD600E6CD6D /* Preview Assets.xcassets */; };
+		3897410729072AD600E6CD6D /* Liftey_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3897410629072AD600E6CD6D /* Liftey_DemoTests.swift */; };
+		3897411129072AD600E6CD6D /* Liftey_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3897411029072AD600E6CD6D /* Liftey_DemoUITests.swift */; };
+		3897411329072AD600E6CD6D /* Liftey_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3897411229072AD600E6CD6D /* Liftey_DemoUITestsLaunchTests.swift */; };
+		3897412129072B6A00E6CD6D /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3897412029072B6A00E6CD6D /* Workout.swift */; };
+		3897412329072BA400E6CD6D /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3897412229072BA400E6CD6D /* Exercise.swift */; };
+		38974125290749C900E6CD6D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38974124290749C900E6CD6D /* CellView.swift */; };
+		389741272907500800E6CD6D /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389741262907500800E6CD6D /* DescriptionView.swift */; };
+		389741292907501800E6CD6D /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389741282907501800E6CD6D /* AddWorkoutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3897410329072AD600E6CD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389740EA29072AD500E6CD6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389740F129072AD500E6CD6D;
+			remoteInfo = "Liftey Demo";
+		};
+		3897410D29072AD600E6CD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389740EA29072AD500E6CD6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389740F129072AD500E6CD6D;
+			remoteInfo = "Liftey Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3865A7AC291447BA00A0E99B /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		389740F229072AD500E6CD6D /* Liftey Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liftey Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		389740F529072AD500E6CD6D /* Liftey_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liftey_DemoApp.swift; sourceTree = "<group>"; };
+		389740F729072AD500E6CD6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		389740F929072AD600E6CD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		389740FC29072AD600E6CD6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3897410229072AD600E6CD6D /* Liftey DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Liftey DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3897410629072AD600E6CD6D /* Liftey_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liftey_DemoTests.swift; sourceTree = "<group>"; };
+		3897410C29072AD600E6CD6D /* Liftey DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Liftey DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3897411029072AD600E6CD6D /* Liftey_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liftey_DemoUITests.swift; sourceTree = "<group>"; };
+		3897411229072AD600E6CD6D /* Liftey_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liftey_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3897412029072B6A00E6CD6D /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		3897412229072BA400E6CD6D /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		38974124290749C900E6CD6D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		389741262907500800E6CD6D /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		389741282907501800E6CD6D /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		389740EF29072AD500E6CD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389740FF29072AD600E6CD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3897410929072AD600E6CD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3865A7AB291305EA00A0E99B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				3865A7AC291447BA00A0E99B /* WorkoutViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		389740E929072AD500E6CD6D = {
+			isa = PBXGroup;
+			children = (
+				389740F429072AD500E6CD6D /* Liftey Demo */,
+				3897410529072AD600E6CD6D /* Liftey DemoTests */,
+				3897410F29072AD600E6CD6D /* Liftey DemoUITests */,
+				389740F329072AD500E6CD6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		389740F329072AD500E6CD6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				389740F229072AD500E6CD6D /* Liftey Demo.app */,
+				3897410229072AD600E6CD6D /* Liftey DemoTests.xctest */,
+				3897410C29072AD600E6CD6D /* Liftey DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		389740F429072AD500E6CD6D /* Liftey Demo */ = {
+			isa = PBXGroup;
+			children = (
+				389740F529072AD500E6CD6D /* Liftey_DemoApp.swift */,
+				389740F729072AD500E6CD6D /* ContentView.swift */,
+				3897412A2907548D00E6CD6D /* Views */,
+				3897411F29072B5100E6CD6D /* Models */,
+				3865A7AB291305EA00A0E99B /* View Models */,
+				389740F929072AD600E6CD6D /* Assets.xcassets */,
+				389740FB29072AD600E6CD6D /* Preview Content */,
+			);
+			path = "Liftey Demo";
+			sourceTree = "<group>";
+		};
+		389740FB29072AD600E6CD6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				389740FC29072AD600E6CD6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3897410529072AD600E6CD6D /* Liftey DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3897410629072AD600E6CD6D /* Liftey_DemoTests.swift */,
+			);
+			path = "Liftey DemoTests";
+			sourceTree = "<group>";
+		};
+		3897410F29072AD600E6CD6D /* Liftey DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3897411029072AD600E6CD6D /* Liftey_DemoUITests.swift */,
+				3897411229072AD600E6CD6D /* Liftey_DemoUITestsLaunchTests.swift */,
+			);
+			path = "Liftey DemoUITests";
+			sourceTree = "<group>";
+		};
+		3897411F29072B5100E6CD6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3897412029072B6A00E6CD6D /* Workout.swift */,
+				3897412229072BA400E6CD6D /* Exercise.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3897412A2907548D00E6CD6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38974124290749C900E6CD6D /* CellView.swift */,
+				389741262907500800E6CD6D /* DescriptionView.swift */,
+				389741282907501800E6CD6D /* AddWorkoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		389740F129072AD500E6CD6D /* Liftey Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3897411629072AD600E6CD6D /* Build configuration list for PBXNativeTarget "Liftey Demo" */;
+			buildPhases = (
+				389740EE29072AD500E6CD6D /* Sources */,
+				389740EF29072AD500E6CD6D /* Frameworks */,
+				389740F029072AD500E6CD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Liftey Demo";
+			productName = "Liftey Demo";
+			productReference = 389740F229072AD500E6CD6D /* Liftey Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3897410129072AD600E6CD6D /* Liftey DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3897411929072AD600E6CD6D /* Build configuration list for PBXNativeTarget "Liftey DemoTests" */;
+			buildPhases = (
+				389740FE29072AD600E6CD6D /* Sources */,
+				389740FF29072AD600E6CD6D /* Frameworks */,
+				3897410029072AD600E6CD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3897410429072AD600E6CD6D /* PBXTargetDependency */,
+			);
+			name = "Liftey DemoTests";
+			productName = "Liftey DemoTests";
+			productReference = 3897410229072AD600E6CD6D /* Liftey DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3897410B29072AD600E6CD6D /* Liftey DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3897411C29072AD600E6CD6D /* Build configuration list for PBXNativeTarget "Liftey DemoUITests" */;
+			buildPhases = (
+				3897410829072AD600E6CD6D /* Sources */,
+				3897410929072AD600E6CD6D /* Frameworks */,
+				3897410A29072AD600E6CD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3897410E29072AD600E6CD6D /* PBXTargetDependency */,
+			);
+			name = "Liftey DemoUITests";
+			productName = "Liftey DemoUITests";
+			productReference = 3897410C29072AD600E6CD6D /* Liftey DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		389740EA29072AD500E6CD6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					389740F129072AD500E6CD6D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					3897410129072AD600E6CD6D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 389740F129072AD500E6CD6D;
+					};
+					3897410B29072AD600E6CD6D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 389740F129072AD500E6CD6D;
+					};
+				};
+			};
+			buildConfigurationList = 389740ED29072AD500E6CD6D /* Build configuration list for PBXProject "Liftey Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 389740E929072AD500E6CD6D;
+			productRefGroup = 389740F329072AD500E6CD6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				389740F129072AD500E6CD6D /* Liftey Demo */,
+				3897410129072AD600E6CD6D /* Liftey DemoTests */,
+				3897410B29072AD600E6CD6D /* Liftey DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		389740F029072AD500E6CD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389740FD29072AD600E6CD6D /* Preview Assets.xcassets in Resources */,
+				389740FA29072AD600E6CD6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3897410029072AD600E6CD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3897410A29072AD600E6CD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		389740EE29072AD500E6CD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3865A7AD291447BA00A0E99B /* WorkoutViewModel.swift in Sources */,
+				389741292907501800E6CD6D /* AddWorkoutView.swift in Sources */,
+				389740F829072AD500E6CD6D /* ContentView.swift in Sources */,
+				38974125290749C900E6CD6D /* CellView.swift in Sources */,
+				3897412329072BA400E6CD6D /* Exercise.swift in Sources */,
+				389741272907500800E6CD6D /* DescriptionView.swift in Sources */,
+				389740F629072AD500E6CD6D /* Liftey_DemoApp.swift in Sources */,
+				3897412129072B6A00E6CD6D /* Workout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389740FE29072AD600E6CD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3897410729072AD600E6CD6D /* Liftey_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3897410829072AD600E6CD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3897411329072AD600E6CD6D /* Liftey_DemoUITestsLaunchTests.swift in Sources */,
+				3897411129072AD600E6CD6D /* Liftey_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3897410429072AD600E6CD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389740F129072AD500E6CD6D /* Liftey Demo */;
+			targetProxy = 3897410329072AD600E6CD6D /* PBXContainerItemProxy */;
+		};
+		3897410E29072AD600E6CD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389740F129072AD500E6CD6D /* Liftey Demo */;
+			targetProxy = 3897410D29072AD600E6CD6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3897411429072AD600E6CD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3897411529072AD600E6CD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3897411729072AD600E6CD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Liftey Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = CS7P9L74D4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DavidWilliams.Liftey-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3897411829072AD600E6CD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Liftey Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = CS7P9L74D4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DavidWilliams.Liftey-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3897411A29072AD600E6CD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS7P9L74D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DavidWilliams.Liftey-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liftey Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Liftey Demo";
+			};
+			name = Debug;
+		};
+		3897411B29072AD600E6CD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS7P9L74D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DavidWilliams.Liftey-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liftey Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Liftey Demo";
+			};
+			name = Release;
+		};
+		3897411D29072AD600E6CD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS7P9L74D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DavidWilliams.Liftey-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Liftey Demo";
+			};
+			name = Debug;
+		};
+		3897411E29072AD600E6CD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS7P9L74D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DavidWilliams.Liftey-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Liftey Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		389740ED29072AD500E6CD6D /* Build configuration list for PBXProject "Liftey Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3897411429072AD600E6CD6D /* Debug */,
+				3897411529072AD600E6CD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3897411629072AD600E6CD6D /* Build configuration list for PBXNativeTarget "Liftey Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3897411729072AD600E6CD6D /* Debug */,
+				3897411829072AD600E6CD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3897411929072AD600E6CD6D /* Build configuration list for PBXNativeTarget "Liftey DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3897411A29072AD600E6CD6D /* Debug */,
+				3897411B29072AD600E6CD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3897411C29072AD600E6CD6D /* Build configuration list for PBXNativeTarget "Liftey DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3897411D29072AD600E6CD6D /* Debug */,
+				3897411E29072AD600E6CD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 389740EA29072AD500E6CD6D /* Project object */;
+}
